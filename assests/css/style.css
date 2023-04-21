@@ -9,7 +9,7 @@ body{
 }
 
 
-.enter-button {
+#enter {
 background-color: blue;
 box-shadow: 5px 5px 5px #0043DE;
 border-radius: 15px;
