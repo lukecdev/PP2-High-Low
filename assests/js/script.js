@@ -22,5 +22,5 @@ function showgame(){
 }
 
 function showrules() {
-    homedisplay.style.display = "none"
+    homedisplay.style.display = "block"
 }
