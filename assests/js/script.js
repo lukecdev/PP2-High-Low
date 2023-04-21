@@ -4,5 +4,6 @@
  * If the answer is correct the game continues and if incorrect the game ends.
  */
 
-// Scope Function Start
+// Scope Function Start //
 
+const enter = document.getElementById("enter");
