@@ -13,8 +13,7 @@ const rules = document.getElementById("rules");
 /* Display and hiding sections of screen as the game moves forward*/
 enter.addEventListener("click", () => {
 
-    homedisplay = e.target.id
-    gamedisplay.style.display = "block";
+    
     showgame();
     showrules();
 });
