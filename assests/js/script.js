@@ -7,3 +7,4 @@
 // Scope Function Start //
 
 const enter = document.getElementById("enter");
+const homedisplay = document.getElementById("home-display");
