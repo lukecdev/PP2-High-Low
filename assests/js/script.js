@@ -22,5 +22,5 @@ function showgame(){
 }
 
 function showrules() {
-    homedisplay.style.display = "block"
+    homedisplay.style.display = "hidden"
 }
