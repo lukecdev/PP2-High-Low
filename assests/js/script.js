@@ -14,9 +14,6 @@ enter.addEventListener("click", () => {
 
     homedisplay = e.target.id
     gamedisplay.style.display = "block";
-    startgame();
+    showgame();
 });
 
-function showgame(){
-    homedisplay.style.display = "none"
-}
