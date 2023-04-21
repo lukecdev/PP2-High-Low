@@ -8,3 +8,8 @@
 
 const enter = document.getElementById("enter");
 const homedisplay = document.getElementById("home-display");
+
+/* Display and hiding sections of screen as the game moves forward*/
+enter.addEventListener("click", () => {
+    homedisplay.style.display = "none";
+})
