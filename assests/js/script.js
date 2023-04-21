@@ -17,3 +17,6 @@ enter.addEventListener("click", () => {
     showgame();
 });
 
+function showgame(){
+    homedisplay.style.display = "none"
+}
