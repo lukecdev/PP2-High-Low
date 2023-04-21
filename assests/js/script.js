@@ -20,3 +20,7 @@ enter.addEventListener("click", () => {
 function showgame(){
     homedisplay.style.display = "none"
 }
+
+function showrules() {
+    homedisplay.style.display = "none"
+}
