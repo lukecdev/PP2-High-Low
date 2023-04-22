@@ -21,3 +21,9 @@ margin-top: 10%;
 padding: 20px;
 text-align: center;
 }
+
+h1 {
+    font-size: 2em;
+    color: #0043DE;
+    margin-bottom: 2px;
+}
