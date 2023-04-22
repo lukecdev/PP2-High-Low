@@ -6,9 +6,17 @@
 
 // Scope Function Start //
 
+function() {
+    fnReset();
+}
+
 const enter = document.getElementById("enter");
 const homedisplay = document.getElementById("home-display");
 const rules = document.getElementById("rules");
+
+function fnReset() {
+    document.getElementById('game-display').classList.remove('quizhide');
+}
 
 /* Display and hiding sections of screen as the game moves forward*/
 enter.addEventListener("click", () => {
