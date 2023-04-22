@@ -4,8 +4,21 @@
  * If the answer is correct the game continues and if incorrect the game ends.
  */
 
-// Scope Function Start //
 
+const mt1 = document.getElementById('mt1')
+const mt2 = document.getElementById('mt2')
+const higher = document.getElementById('higher')
+const lower = document.getElementById('lower')
+const possibleChoice = document.querySelectorAll('button')
+let mt1
+
+possibleChoice.forEach(possibleChoice => possibleChoice.addEventListener('click',() => {
+    mt1 = e.target.id
+    mt2.innerHTML = mt1
+}))
+
+// Scope Function Start //
+/*
 function() {
     fnReset();
 }
@@ -18,7 +31,7 @@ function fnReset() {
     document.getElementById('game-display').classList.remove('quizhide');
 }
 
-/* Display and hiding sections of screen as the game moves forward*/
+/* Display and hiding sections of screen as the game moves forward*
 enter.addEventListener("click", () => {
 
     
@@ -32,4 +45,5 @@ function showgame(){
 
 function showrules() {
     homedisplay.style.display = "hidden"
-}
+} */
+
