@@ -13,10 +13,30 @@ let currentQuestion;
 let questionSet;
 
 function startGame(questions) {
-    score = 1;
-    currentQuestion = 1;
-    
+    score = 0;
+    currentQuestion = 0;
+    questionSet = questions;
+    displayQuestion();
 }
+
+function displayQuestion() {
+    if (currentQuestion + 1 > questionSet.length){
+        gameOver();
+    }
+}
+
+function checkAnswer(clickedAnswer) {
+    if (clickedAnswer.dataset.answer == questionSet[currentQuestion].correct) {
+        score++;
+        alert("Correct!");
+    } else {
+        alert("Incorrect :(");
+    }
+    currentQuestion++;
+    displayQuestion();
+}
+
+
 
 
 /* 
