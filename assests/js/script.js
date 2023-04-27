@@ -22,6 +22,12 @@ function startGame(questions) {
 function displayQuestion() {
     if (currentQuestion + 1 > questionSet.length){
         gameOver();
+    } else {
+        questionText.innerHTML = questionSet[currentQuestion].question;
+        for (let i = 0; i + 1 <= answerButtons.length; i++) {
+            answerButtons[i].innerHTML = questionSet[currentQuestion].choices[i];
+            answerButtons[i].dataset.answer = questionSet[currentQuestion].choices[i];
+        }
     }
 }
 
