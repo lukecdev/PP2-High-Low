@@ -12,6 +12,23 @@
 </head>
 <body>
 
+    <main>
+        <section id="start">
+            <h1>Start of Quiz!</h1>
+            <h2>Pick a category:</h2>
+            <button id="europe" onclick="startGame(europe)">Europe</button>
+            <button id="world" onclick="startGame(world)">World</button>
+        </section>
+        <section id="quiz-area">
+            <h2 id="question-text">Question-text</h2>
+            <button class="btn-answer" onclick="checkAnswer(this)">Answer</button>
+            <button class="btn-answer" onclick="checkAnswer(this)">Answer</button>
+            <button class="btn-answer" onclick="checkAnswer(this)">Answer</button>
+        </section>
+
+
+    </main>
+
     <h2>Which Mountain is Higher?</h2>
     <h3>Mountain 1:<span id="mt1"></span></h3>
     <h3>Mountain 2:<span id="mt2"></span></h3>
