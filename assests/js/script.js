@@ -42,6 +42,10 @@ function checkAnswer(clickedAnswer) {
     displayQuestion();
 }
 
+function gameOver() {
+    alert("Game Over! You scored " + score + " points!");
+    location.reload();
+}
 
 
 
