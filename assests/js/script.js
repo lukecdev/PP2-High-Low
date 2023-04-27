@@ -7,6 +7,8 @@
 
 let questionText = document.getElementById("question-text");
 let answerButtons = document.getElementsByClassName("btn-answer");
+let rulesDisplay = document.getElementById("rules");
+let homeDisplay = document.getElementById("start");
 
 let score;
 let currentQuestion;
@@ -42,10 +44,12 @@ function checkAnswer(clickedAnswer) {
     displayQuestion();
 }
 
+
 function gameOver() {
     alert("Game Over! You scored " + score + " points!");
     location.reload();
 }
+
 
 
 
