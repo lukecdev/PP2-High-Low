@@ -1,11 +1,35 @@
 
 body{
     text-align: center;
-    background: url('../images/background.jpg');
+    background: url('../images/mt-range.jpg');
+    background-size: 100%;
     background-repeat: no-repeat;
     color: white;
     min-height: 100vh;
     font-family: 'Courier New', Courier, monospace;
+}
+#start {
+    width: 100vh;
+    height: 25vh;
+    display: float;
+    padding: 2.5rem 2.5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    margin: 0 auto;
+    background-color: red;
+}
+
+#quiz-area {
+    width: 100vh;
+    height: 25vh;
+    display: float;
+    padding: 2.5rem 2.5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    margin: 0 auto;
+    background-color: blue;
 }
 
 /*
