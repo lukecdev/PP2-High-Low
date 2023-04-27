@@ -4,6 +4,21 @@
  * If the answer is correct the game continues and if incorrect the game ends.
  */
 
+
+let questionText = document.getElementById("question-text");
+let answerButtons = document.getElementsByClassName("btn-answer");
+
+let score;
+let currentQuestion;
+let questionSet;
+
+function startGame(questions) {
+    score = 1;
+    currentQuestion = 1;
+    
+}
+
+
 /* 
 const mt1 = document.getElementById('mt1')
 const mt2 = document.getElementById('mt2')
