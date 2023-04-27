@@ -4,7 +4,7 @@
  * If the answer is correct the game continues and if incorrect the game ends.
  */
 
-
+/* 
 const mt1 = document.getElementById('mt1')
 const mt2 = document.getElementById('mt2')
 const higher = document.getElementById('higher')
