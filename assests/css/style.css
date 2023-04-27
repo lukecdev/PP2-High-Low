@@ -8,7 +8,11 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 
-
+/*
+#quiz-area {
+    display: none;
+}
+*/
 #enter {
 background-color: blue;
 box-shadow: 5px 5px 5px #0043DE;
