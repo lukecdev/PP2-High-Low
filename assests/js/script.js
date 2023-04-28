@@ -44,6 +44,23 @@ function checkAnswer(clickedAnswer) {
     displayQuestion();
 }
 
+function rulesDisplay() {
+    var x = document.getElementById("start");
+
+    if(x.style.display === "block") {
+        x.style.display = "none";
+    }
+
+    else {
+        x.style.display = "block";
+    }
+}
+
+/*
+function hideRules(){
+    start.style.display = "none"
+    quiz-HTMLTextAreaElement.style.display = "block"
+}
 
 function gameOver() {
     alert("Game Over! You scored " + score + " points!");
