@@ -8,6 +8,7 @@
 let questionText = document.getElementById("question-text");
 let answerButtons = document.getElementsByClassName("btn-answer");
 let questionDisplay = document.getElementById("quiz-area");
+let rulesButton = document.getElementsByClassName("btn-rules");
 
 let homeDisplay = document.getElementById("start");
 const answerBox = document.getElementById("end-box");
@@ -53,14 +54,17 @@ function rulesDisplay() {
 
     if(rhide.style.display === "none") {
         rhide.style.display = "block";
+        
         homeDisplay.style.display = "none";
         questionDisplay.style.display = "none";
+        rulesButton.style.text = "back";
     }
 
     else {
         rhide.style.display = "none";
         homeDisplay.style.display = "block";
         questionDisplay.style.display = "block";
+        rulesButton.text = "back";
     }
 }
 /*
