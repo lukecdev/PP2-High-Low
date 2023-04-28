@@ -13,6 +13,7 @@
 <body>
 
     <main>
+        <button onclick="darkMode()" class="dark-mode">Dark Mode</button>
         
         <section id="start">
             <h1>Start of Quiz!</h1>
@@ -31,9 +32,22 @@
              <button class="btn-rules" onclick= "rulesDisplay()">Rules</button>
         </div>
         <section id="rules">
-           <h3>Theses are the rules of the Quiz</h3>
+            <div id="rules-box" class="rules-container">
+                <h3>Theses are the rules of the Quiz</h3>
+                <ul>
+                    <li>Choose a topic</li>
+                    <li>There is 6 questions in each topic</li>
+                    <li>Select on an asnwer to move to following question</li>
+                    <li>You must answer each question</li>
+                    <li>After the 6 questions you will recieve your final score.</li>
+                </ul>
+            </div>
+          
         </section>
-   
+        
+        <section id="end-box">
+            <h2 id="score-box">Final score display here</h2>
+        </section>
 
 
     </main>
