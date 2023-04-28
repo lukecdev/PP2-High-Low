@@ -7,8 +7,10 @@
 
 let questionText = document.getElementById("question-text");
 let answerButtons = document.getElementsByClassName("btn-answer");
+let questionDisplay = document.getElementById("quiz-area");
 
 let homeDisplay = document.getElementById("start");
+const answerBox = document.getElementById("end-box");
 
 let score;
 let currentQuestion;
@@ -44,22 +46,58 @@ function checkAnswer(clickedAnswer) {
     displayQuestion();
 }
 
+/* Click the rules button for the rules section to appear
+ * hide start and question section */
 function rulesDisplay() {
-    var x = document.getElementById("rules");
+    var rhide = document.getElementById("rules");
 
-    if(x.style.display === "none") {
-        x.style.display = "block";
+    if(rhide.style.display === "none") {
+        rhide.style.display = "block";
+        homeDisplay.style.display = "none";
+        questionDisplay.style.display = "none";
     }
 
     else {
-        x.style.display = "none";
+        rhide.style.display = "none";
+        homeDisplay.style.display = "block";
+        questionDisplay.style.display = "block";
     }
 }
+/*
+function gameOver() {
+    alert("Game Over! You got " + score + " out of 10 correct!");
+    location.reload();
+
+
+    answerBox.style.display = "block";
+
+    incrementScore = num => {
+    score += num;
+    scoreText.innerText = score;
+};
+} */
+
+function darkMode() {
+    var element = document.getElementById("start","quiz-area");
+    element.classList.toggle("dark-mode");
+}
+
 
 function gameOver() {
-    alert("Game Over! You scored " + score + " points!");
-    location.reload();
+
+    const scoreBox = document.getElementById("score-box");
+    if (score <= 0) {
+        scoreBox.innerText = "Your score is " + score + " out of 6  correct!" 
+    }
+    
+    displayQuestion.style.display = "none";
+    
+   
+    
 }
+    
+
+
 
 /*
 function hideRules(){
