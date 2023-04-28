@@ -10,12 +10,23 @@ let answerButtons = document.getElementsByClassName("btn-answer");
 let questionDisplay = document.getElementById("quiz-area");
 let rulesButton = document.getElementsByClassName("btn-rules");
 
+let quizStartNA = document.getElementById("north-america");
+
+
 let homeDisplay = document.getElementById("start");
 const answerBox = document.getElementById("end-box");
 
 let score;
 let currentQuestion;
 let questionSet;
+
+/*
+quizStart.addEventListener("click",() => {
+    homeDisplay.style.display = "none";
+    questionDisplay.style.display = "block";
+}); */
+
+
 
 function startGame(questions) {
     score = 0;
@@ -36,6 +47,7 @@ function displayQuestion() {
     }
 }
 
+
 function checkAnswer(clickedAnswer) {
     if (clickedAnswer.dataset.answer == questionSet[currentQuestion].correct) {
         score++;
@@ -45,6 +57,23 @@ function checkAnswer(clickedAnswer) {
     }
     currentQuestion++;
     displayQuestion();
+}
+
+/*
+function removeStart () {
+    let quizStart = document.getElementById("europe");
+    quizStart.style.display = "none";
+}
+
+/*
+quizStart.onclick = function() {
+    homeDisplay.style.display = "none";
+    questionDisplay.style.display = "block";
+}
+
+quizStartNA.onclick = function() {
+    homeDisplay.style.display = "none";
+    questionDisplay.style.display = "block";
 }
 
 /* Click the rules button for the rules section to appear
@@ -67,7 +96,7 @@ function rulesDisplay() {
         rulesButton.text = "back";
     }
 }
-/*
+
 function gameOver() {
     alert("Game Over! You got " + score + " out of 10 correct!");
     location.reload();
@@ -79,7 +108,7 @@ function gameOver() {
     score += num;
     scoreText.innerText = score;
 };
-} */
+} 
 
 function darkMode() {
     var element = document.getElementById("start","quiz-area");
