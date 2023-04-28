@@ -7,7 +7,7 @@
 
 let questionText = document.getElementById("question-text");
 let answerButtons = document.getElementsByClassName("btn-answer");
-let rulesDisplay = document.getElementById("rules");
+
 let homeDisplay = document.getElementById("start");
 
 let score;
@@ -45,14 +45,14 @@ function checkAnswer(clickedAnswer) {
 }
 
 function rulesDisplay() {
-    var x = document.getElementById("start");
+    var x = document.getElementById("rules");
 
-    if(x.style.display === "block") {
-        x.style.display = "none";
+    if(x.style.display === "none") {
+        x.style.display = "block";
     }
 
     else {
-        x.style.display = "block";
+        x.style.display = "none";
     }
 }
 
@@ -67,7 +67,7 @@ function gameOver() {
     location.reload();
 }
 
-
+let rulesDisplay = document.getElementById("rules");
 
 
 /* 
