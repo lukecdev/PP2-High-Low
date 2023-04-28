@@ -4,7 +4,8 @@ body{
     background: url('../images/mt-range.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
-    color: white;
+    background-color: white;
+    color: black;
     min-height: 100vh;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -20,7 +21,7 @@ body{
     align-items: center;
     padding: 3rem;
     margin: 0 auto;
-    background-color: red;
+    background-color: white;
 }
 
 #quiz-area {
@@ -36,6 +37,25 @@ body{
     padding: 3rem;
     margin: 0 auto;
     background-color: rgba(0, 112, 19, 0.8);
+    color: black;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.rules-container {
+    
+    margin: 5vh;
+    padding: 5px 5px 10px 5px;
+    
+    
+    background-color: blue;
+    border-radius: 15px;
+    display: inline-block;
+    letter-spacing: 0.5px;
+    
 }
 
 #rules {
