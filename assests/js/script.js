@@ -56,6 +56,11 @@ function rulesDisplay() {
     }
 }
 
+function gameOver() {
+    alert("Game Over! You scored " + score + " points!");
+    location.reload();
+}
+
 /*
 function hideRules(){
     start.style.display = "none"
