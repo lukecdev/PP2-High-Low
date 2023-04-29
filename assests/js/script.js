@@ -52,12 +52,26 @@ function displayQuestion() {
 function checkAnswer(clickedAnswer) {
     if (clickedAnswer.dataset.answer == questionSet[currentQuestion].correct) {
         score++;
-        alert("Correct!");
+        
+        incrementScore();
     } else {
-        alert("Incorrect :(");
+        
+        incrementWrongAnswer();
     }
     currentQuestion++;
     displayQuestion();
+}
+
+function incrementScore() {
+    let oldScore = parseInt(document.getElementById("score").innerText);
+    document.getElementById("score").innerText = ++oldScore;
+
+}
+
+function incrementWrongAnswer() {
+
+    let oldScore = parseInt(document.getElementById("incorrect").innerText);
+    document.getElementById("incorrect").innerText = ++oldScore;
 }
 
 /*
@@ -97,7 +111,7 @@ function rulesDisplay() {
         rulesButton.text = "back";
     }
 }
-
+ /*
 function gameOver() {
     alert("Game Over! You got " + score + " out of 10 correct!");
     location.reload();
@@ -109,14 +123,18 @@ function gameOver() {
     score += num;
     scoreText.innerText = score;
 };
-} 
+} */
 
 function darkMode() {
     var element = document.getElementById("start","quiz-area");
     element.classList.toggle("dark-mode");
 }
 
-
+function gameOver() {
+    alert("Game Over! You scored " + score + " points!");
+    location.reload();
+}
+/*
 function gameOver() {
 
     const scoreBox = document.getElementById("score-box");
@@ -129,7 +147,7 @@ function gameOver() {
    
     
 }
-    
+   */ 
 
 
 
