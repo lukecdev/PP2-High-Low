@@ -4,6 +4,7 @@
  * If the answer is correct the game continues and if incorrect the game ends.
  */
 
+//All declared variables that are used in the JS file
 
 let questionText = document.getElementById("question-text");
 let answerButtons = document.getElementsByClassName("btn-answer");
