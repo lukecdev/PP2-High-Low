@@ -18,23 +18,30 @@
     
     </header>
 
-    <main id="start-page" class="home">
+    <main id="start-page" class="home" style="display: block">
        
         
         <section id="start">
             <div class="start-box">
             <h1>Start of Quiz!</h1>
             <h2>Pick a category:</h2>
-            <button id="europe" onclick="startGame(europe)">Europe</button>
+            <button id="europe" onclick="startGame(europe);homeHide()">Europe</button>
             <button id="north-america" onclick="startGame(world)">North America</button>
             </div>
         </section>
+        
 
     </main>
 
-        <section id="quiz-area">
+        <section id="quiz-area" style="display: none">
+            <div class="score-area">
+                <p class="scores">Correct Answers <span id="score">0</span></p>
+                <p class="scores">Inncorrect Answers <span id="incorrect">0</span></p>
+            </div>
+
             <div class="quiz-box">
-            <h2 id="question-text">Question-text</h2>
+                <div class="question-text"><h2 id="question-text">Question-text</h2></div>
+            
             <button class="btn-answer" onclick="checkAnswer(this)">Answer</button>
             <button class="btn-answer" onclick="checkAnswer(this)">Answer</button>
             <button class="btn-answer" onclick="checkAnswer(this)">Answer</button>
@@ -61,10 +68,7 @@
           
         </section>
 
-        <div class="score-area">
-            <p class="scores">Correct Answers <span id="score">0</span></p>
-            <p class="scores">Inncorrect Answers <span id="incorrect">0</span></p>
-        </div>
+        
         
         <section id="end-box">
             <h2 id="score-box">Final score display here</h2>
