@@ -14,7 +14,7 @@ let rulesButton = document.getElementsByClassName("btn-rules");
 let quizStartNA = document.getElementById("north-america");
 
 
-let homeDisplay = document.getElementById("start");
+let homeDisplay = document.getElementById("start-page");
 const answerBox = document.getElementById("end-box");
 
 let score;
@@ -33,7 +33,9 @@ function startGame(questions) {
     score = 0;
     currentQuestion = 0;
     questionSet = questions;
+    
     displayQuestion();
+    
 }
 
 function displayQuestion() {
@@ -46,6 +48,7 @@ function displayQuestion() {
             answerButtons[i].dataset.answer = questionSet[currentQuestion].choices[i];
         }
     }
+    
 }
 
 
@@ -110,6 +113,18 @@ function rulesDisplay() {
         questionDisplay.style.display = "block";
         rulesButton.text = "back";
     }
+}
+
+function homeHide() {
+    
+
+    if(homeDisplay.style.display === "block") {
+        homeDisplay.style.display = "none";
+        questionDisplay.style.display = "block";
+        
+    }
+
+   
 }
  /*
 function gameOver() {
