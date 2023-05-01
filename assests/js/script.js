@@ -104,13 +104,13 @@ function rulesDisplay() {
         
         homeDisplay.style.display = "none";
         questionDisplay.style.display = "none";
-        rulesButton.style.text = "back";
+        rulesButton.style.innerHTML = "back";
     }
 
     else {
         rhide.style.display = "none";
         homeDisplay.style.display = "block";
-        questionDisplay.style.display = "block";
+        
         rulesButton.text = "back";
     }
 }
