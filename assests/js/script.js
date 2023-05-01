@@ -144,11 +144,35 @@ function darkMode() {
     var element = document.getElementById("start","quiz-area");
     element.classList.toggle("dark-mode");
 }
-
+/*
 function gameOver() {
     alert("Game Over! You scored " + score + " points!");
     location.reload();
+}*/
+
+
+function gameOver() {
+    var finalshow = document.getElementById("final-page");
+
+    if(finalshow.style.display === "none") {
+        finalshow.style.display = "block";
+        
+        homeDisplay.style.display = "none";
+        questionDisplay.style.display = "none";
+        
+        
+    }
+
+    else {
+        location.reload();
+    }
 }
+
+function reload() {
+    location.reload();
+}
+
+
 /*
 function gameOver() {
 
