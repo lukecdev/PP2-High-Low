@@ -13,27 +13,35 @@
 <body>
     <header>
         <h1>Which Mountain? </h1>
+        <!--
         <button class="btn-dark" onclick="darkMode()" id="dark-mode">Dark Mode
-        </button>
+        </button>-->
     
     </header>
 
+    <!--Start page-->
     <main id="start-page" class="home" style="display: block">
        
         
         <section id="start">
             <div class="start-box">
-            <h1>Start of Quiz!</h1>
-            <h2>Pick a category:</h2>
+                <!--
+            <h1>Start of Quiz!</h1> -->
+            <h2 class="questionh1">Pick a Mountain region:</h2>
+            </div>
+           <div class="cat-e">
             <button id="europe" onclick="startGame(europe);homeHide()">Europe</button>
+           </div>
+           <div class="cat-na">
             <button id="north-america" onclick="startGame(world)">North America</button>
             </div>
         </section>
-        
+    <!--Rules button and section-->    
+     
 
     </main>
 
-        <section id="quiz-area" style="display: none">
+    <section id="quiz-area" style="display: none">
             <div class="score-area">
                 <p class="scores">Correct Answers <span id="score">0</span></p>
                 <p class="scores">Inncorrect Answers <span id="incorrect">0</span></p>
@@ -42,37 +50,43 @@
             <div class="quiz-box">
                 <div class="question-text"><h2 id="question-text">Question-text</h2></div>
             
-            <button class="btn-answer" onclick="checkAnswer(this)">Answer</button>
-            <button class="btn-answer" onclick="checkAnswer(this)">Answer</button>
-            <button class="btn-answer" onclick="checkAnswer(this)">Answer</button>
+            <div><button class="btn-answer button" onclick="checkAnswer(this)">Answer</button></div>
+                <div><button class="btn-answer button" onclick="checkAnswer(this)">Answer</button></div>
+                    <div><button class="btn-answer button" onclick="checkAnswer(this)">Answer</button></div>
             </div>
-        </section>
+    </section>
 
-        <div>
-             <button class="btn-rules" onclick= "rulesDisplay()">Rules</button>
-        </div>
-        <section id="rules">
-            <div id="rules-box" class="rules-container">
-                <h3>Theses are the rules of the Quiz</h3>
-                <ul>
-                    <li>Choose a topic</li>
-                    <li>There is 6 questions in each topic</li>
-                    <li>Select on an asnwer to move to following question</li>
-                    <li>You must answer each question</li>
-                    <li>After the 6 questions you will recieve your final score.</li>
-                </ul>
-            </div>
+    <section>
             <div>
-                <button id="rules-back" class="btn">Back</button>
+                 <button class="btn-rules button" onclick= "rulesDisplay()">Rules</button>
             </div>
-          
-        </section>
+            <section id="rules" style="display: none">
+                <div id="rules-box" class="rules-container">
+                    <h3>Theses are the rules of the Quiz</h3>
+                    <ul>
+                        <li>Choose a topic</li>
+                        <li>There is 6 questions in each topic</li>
+                        <li>Select on an asnwer to move to following question</li>
+                        <li>You must answer each question</li>
+                        <li>After the 6 questions you will recieve your final score.</li>
+                    </ul>
+                </div>
+                
+              
+    </section>
+        
 
         
-        
+
+          <!-- 
+        <div>
+            <button id="rules-back" class="btn" href="index.html">Home</button>
+        </div>
+     
+         <!--  
         <section id="end-box">
             <h2 id="score-box">Final score display here</h2>
-        </section>
+        </section> --> 
 
 
     
