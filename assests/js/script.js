@@ -153,12 +153,14 @@ function gameOver() {
 
 function gameOver() {
     var finalshow = document.getElementById("final-page");
-
+    
     if(finalshow.style.display === "none") {
         finalshow.style.display = "block";
         
         homeDisplay.style.display = "none";
         questionDisplay.style.display = "none";
+        document.getElementsByClassName("final-score").innerHTML ="here is your score now";
+
         
         
     }
