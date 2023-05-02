@@ -17,7 +17,7 @@ Project 2 Javescript
 
 ## [Respository]()
 ----------------------------------
-![Responsive Mockup Screenshot](./assets/images/3-devices-black.png)
+![Responsive Mockup Screenshot](assests/images/3-devices-black.png)
 ---------------------------------
 
 ## Table of contents
