@@ -95,7 +95,8 @@ header {
     margin: 3vh;
 }
 
-.button:hover {
+.button:hover,
+.home-btn:hover {
     background-color: #0043DE;
     color: white;
 
@@ -108,7 +109,8 @@ header {
 }
 
 
-.btn-answer {
+.btn-answer,
+.home-btn {
     margin: 1vh;
     background-color: #e6e8e6;
     border-radius: 15px;
@@ -122,6 +124,16 @@ header {
 .scores {
     display: inline-block;
     padding: 2vh;
+}
+
+#score {
+    color: green;
+    font-weight: bold;
+}
+
+#incorrect {
+    color: red;
+    font-weight: bold;
 }
 
 #europe,
