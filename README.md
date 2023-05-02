@@ -8,9 +8,7 @@
 
 
 ## Introduction 
-> Which Mountain? is a online JavaScript quiz where you test your knowledge of mountain ranges.
-
-> This website is showcasing JavaScript, HTML and CSS to create a interactive for front-end site, that responds to users actions. 
+> Which Mountain? is a online JavaScript quiz to showcase JavaScript, HTML and CSS to create a interactive for front-end site, that responds to users actions.
 
 ## Table of contents
 
@@ -80,3 +78,35 @@
 |Home page, about, portfolio, contact us displays correctly on screens smaller than 950px|Pass |
 
 ## Google Lighhouse Testing
+
+
+# Deployment
+
+> To deploy the project I followed these steps starting from the main project repository [here](https://github.com/lukecdev/Which-Mountain).
+ 1. Clicked on `Settings` on the navigation menu in the repository
+ 2. I then selected the `Pages` menu on the side bar.
+ 3. In the first dropdown menu labeled `Source` I selected the branch of the name `main` from the dropdown.
+ 4. In the next dropdown labeled `/root` I left as the default option.
+ 5. Selected Save
+ 
+> I then received a notification from GitHub that my project is being deployed and after about 1 minute & a couple of refreshes of the page it was ready and live.
+
+# Credits
+
+## Resources
+
+### W3 schools
+> Used for general lookup for HTML and CSS synthax queries.
+
+### Stack Overflow
+> Used to query issues relating to CSS issues I had experienced.
+
+### Code Institute
+> Project created in line with course content and within project 1 scope.
+
+## Content
+Text content on all pages was copied and/or amended from the following sites:
+
+## Acknowledgements
+
+A huge thanks to [Chris Quinn](https://github.com/10xOXR) for his help, suggestions and patiece while I put together this project. 
