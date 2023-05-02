@@ -26,7 +26,8 @@
 
 <a name="ux"></a>
 
-# UX design
+## Colour Design
+![Colour Pallet](./assests/images/colour-palette.png)
 
 # Features
 > The following is a summery of the features already in place.
@@ -97,6 +98,9 @@
 
 ### W3 schools
 > Used for general lookup for HTML and CSS synthax queries.
+
+### Pinclipart.com
+>Used to get a png logo image.
 
 ### Stack Overflow
 > Used to query issues relating to CSS issues I had experienced.
