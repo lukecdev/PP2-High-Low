@@ -12,10 +12,10 @@ Project 2 Javescript
 
 > This website is showcasing JavaScript, HTML and CSS for Project Portfolio 2 that can be accesed though this [Link]()
 
-## [Live Site]()
+## [Live Site](https://lukecdev.github.io/Which-Mountain/)
 --------------------------------
 
-## [Respository]()
+## [Respository](https://github.com/lukecdev/Which-Mountain)
 ----------------------------------
 ![Responsive Mockup Screenshot](assests/images/3-devices-black.png)
 ---------------------------------
