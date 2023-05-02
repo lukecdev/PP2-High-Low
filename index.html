@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="assests\css\style.css"> 
-    <title>High or Lower Mountains!</title>
+    <title>Mountain Quiz!</title>
 
 </head>
 <body>
@@ -33,7 +33,7 @@
             <button id="europe" onclick="startGame(europe);homeHide()">Europe</button>
            </div>
            <div class="cat-na">
-            <button id="north-america" onclick="startGame(world)">North America</button>
+            <button id="north-america" onclick="startGame(world);homeHide()">North America</button>
             </div>
         </section>
     <!--Rules button and section-->    
@@ -59,14 +59,14 @@
     <section id="final-page" style="display: none">
         <div>
             <h3>This is the end of the quiz</h3>
-                    <ul>
-                        <p></p>>"Game Over! You scored " + score + " points!"</li>p>
+                    
+                       <h2 class="final-score">Score message</h2>
                         
-                    </ul>
+                    
 
         </div>
         <div>
-            <button onclick="reload()">Home</button>
+            <button class="home-btn" onclick="reload()">Home</button>
         </div>
 
     </section>
