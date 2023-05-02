@@ -17,7 +17,7 @@ Project 2 Javescript
 
 ## [Respository]()
 ----------------------------------
-! [Responsive Mockup Screenshot]
+![Responsive Mockup Screenshot](./assets/images/3-devices-black.png)
 ---------------------------------
 
 ## Table of contents
@@ -37,3 +37,52 @@ Project 2 Javescript
 <a name="ux"></a>
 
 # UX design
+
+# Features
+> The following is a summery of the features already in place.
+
+# Features left to Implement
+>  These are features that I would have liked to implement for the site if I had more available time and more knowledge on the subject.
+
+# Future Features
+>
+>
+
+# Technologies Used
+
+### Html
+>Used to structure my webpages.
+
+### CSS
+>Used to provide style, layout and responsiveness to my website.
+
+### Font Awesome
+>Used for all the social media icons.
+
+### Google Fonts
+>Used for all the fonts on my website.
+
+### Canva
+>Used to design The Forty Foot logo used in Header.
+
+# Testing
+>Testing on this project was mainly done by myself and a few friends to determine site usablity, reponsiveness and ensure its intuitive to a new user.
+
+### Testing Phase
+
+**Testing for links**
+
+| Test              | Outcome |
+|-------------------|---------------|
+|All links on Navigation lead to their correct pages| Pass  |
+|Footer social links all lead to their respective social media sites |Pass|
+|Content reformats on smaller screens|pass|
+|All images load on pages|pass|
+
+**Testing for reponsiveness**
+| Test              | Outcome |
+|-------------------|---------------|
+|Home page, about, portfolio, contact us displays correctly on screens larger than 950px|Pass |
+|Home page, about, portfolio, contact us displays correctly on screens smaller than 950px|Pass |
+
+## Google Lighhouse Testing
