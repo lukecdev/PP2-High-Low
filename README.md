@@ -1,24 +1,16 @@
-# Project-2
-Project 2 Javescript
-# ux 
-# table of contents
-
-
-# Higher or Lower Mountains
-## A online game about the heights of mountains
-### Portfolio Project 2 - Luke Courtney
+# Which Mountain?
 ------------------
-> Higher or Lower Mountains is a online JavaScript game where you pick the heights of mountain ranges.
-
-> This website is showcasing JavaScript, HTML and CSS for Project Portfolio 2 that can be accesed though this [Link]()
-
 ## [Live Site](https://lukecdev.github.io/Which-Mountain/)
---------------------------------
 
 ## [Respository](https://github.com/lukecdev/Which-Mountain)
 ----------------------------------
-![Responsive Mockup Screenshot](assests/images/3-devices-black.png)
+![Responsive Mockup Screenshot](assests/images/3-devices-black.png) 
 ---------------------------------
+
+## Introduction 
+> Which Mountain? is a online JavaScript quiz where you test your knowledge of mountain ranges.
+
+> This website is showcasing JavaScript, HTML and CSS to create a interactive for front-end site, that responds to users actions. 
 
 ## Table of contents
 
@@ -56,14 +48,16 @@ Project 2 Javescript
 ### CSS
 >Used to provide style, layout and responsiveness to my website.
 
-### Font Awesome
->Used for all the social media icons.
-
 ### Google Fonts
 >Used for all the fonts on my website.
 
-### Canva
->Used to design The Forty Foot logo used in Header.
+### Git
+>For version control, commiting code and pushing changed code to Github.
+
+### Github
+>For storing the repository, files and images that are pushed from VScode.
+
+### 
 
 # Testing
 >Testing on this project was mainly done by myself and a few friends to determine site usablity, reponsiveness and ensure its intuitive to a new user.
