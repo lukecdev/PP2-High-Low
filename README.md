@@ -1,11 +1,11 @@
 # Which Mountain?
-------------------
+
 ## [Live Site](https://lukecdev.github.io/Which-Mountain/)
 
 ## [Respository](https://github.com/lukecdev/Which-Mountain)
 ----------------------------------
 ![Responsive Mockup Screenshot](assests/images/3-devices-black.png) 
----------------------------------
+
 
 ## Introduction 
 > Which Mountain? is a online JavaScript quiz where you test your knowledge of mountain ranges.
