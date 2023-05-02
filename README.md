@@ -1,8 +1,8 @@
 # Which Mountain?
 
-## [Live Site](https://lukecdev.github.io/Which-Mountain/)
+### [Live Site](https://lukecdev.github.io/Which-Mountain/)
 
-## [Respository](https://github.com/lukecdev/Which-Mountain)
+### [Respository](https://github.com/lukecdev/Which-Mountain)
 ----------------------------------
 ![Responsive Mockup Screenshot](assests/images/3-devices-black.png) 
 
