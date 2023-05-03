@@ -15,7 +15,7 @@
         <h1>Which Mountain? </h1>  
     </header>
 
-    <!--Start page-->
+    <!--welcome page-->
     <main id="start-page" class="home" style="display: block">
        
         
@@ -30,11 +30,9 @@
             <button id="north-america" onclick="startGame(world);homeHide()">North America</button>
             </div>
         </section>
-    <!--Rules button and section-->    
-     
-
     </main>
 
+    <!--quiz and question area-->
     <section id="quiz-area" style="display: none">
             <div class="score-area">
                 <p class="scores">Correct Answers <span id="score">0</span></p>
@@ -50,6 +48,7 @@
             </div>
     </section>
 
+    <!--final score page-->
     <section id="final-page" style="display: none">
         <div>        
          <h2 id="final-score">Score message</h2>                            
@@ -57,9 +56,9 @@
         <div>
             <button class="home-btn" onclick="reload()">Home</button>
         </div>
-
     </section>
 
+    <!--rules button and text popup-->
     <section>
             <div>
                  <button id="rules-button" style="display: inline-block;" onclick= "rulesDisplay()">Rules</button>
