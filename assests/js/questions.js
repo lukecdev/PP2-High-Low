@@ -1,3 +1,4 @@
+/** Question set of Europe mountains when the europe button is clicked */
 let europe =[
     {
         "question": "Which mountain is Europes tallest peak and is located in the Caucasus Mountains?",
@@ -32,6 +33,7 @@ let europe =[
 
 ];
 
+/** Question set for North America mountains when the NA is clicked */
 let world = [
     {
         "question": "Which mountain is also known as Mount McKinley and is the tallest mountain in North America.?",
