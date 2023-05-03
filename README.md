@@ -59,7 +59,7 @@
 ### 
 
 # Testing
->Testing on this project was mainly done by myself and a few friends to determine site usablity, reponsiveness and ensure its intuitive to a new user.
+>The W3C Markup Validator, W3C CSS Validator Services and jshint.com were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 ### Testing Phase
 
@@ -79,6 +79,8 @@
 |Home page, about, portfolio, contact us displays correctly on screens smaller than 950px|Pass |
 
 ## Google Lighhouse Testing
+>The site was testing using Lighthouse
+[lighthouse](./assests/images/lighthouse-test.png)
 
 
 # Deployment
