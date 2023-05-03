@@ -80,7 +80,7 @@
 
 ## Google Lighhouse Testing
 >The site was testing using Lighthouse
-[lighthouse](./assests/images/lighthouse-test.png)
+(./assests/images/lighthouse-test1.png)
 
 
 # Deployment
