@@ -67,7 +67,7 @@
 
 | Test              | Outcome |
 |-------------------|---------------|
-|All links on Navigation lead to their correct pages| Pass  |
+|When the rules button is clicked it deplays the rules| Pass  |
 |Footer social links all lead to their respective social media sites |Pass|
 |Content reformats on smaller screens|pass|
 |All images load on pages|pass|
@@ -79,7 +79,7 @@
 |Home page, about, portfolio, contact us displays correctly on screens smaller than 950px|Pass |
 
 ## Google Lighhouse Testing
->The site was testing using Lighthouse
+The site was testing using Lighthouse
 ![Lighthouse results](./assests/images/lighthouse-test1.png)
 
 
