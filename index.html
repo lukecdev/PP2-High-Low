@@ -57,13 +57,8 @@
     </section>
 
     <section id="final-page" style="display: none">
-        <div>
-            <h3>This is the end of the quiz</h3>
-                    
-                       <h2 class="final-score">Score message</h2>
-                        
-                    
-
+        <div>        
+         <h2 id="final-score">Score message</h2>                            
         </div>
         <div>
             <button class="home-btn" onclick="reload()">Home</button>
@@ -73,7 +68,7 @@
 
     <section>
             <div>
-                 <button class="btn-rules button" onclick= "rulesDisplay()">Rules</button>
+                 <button id="rules-button" style="display: inline-block;" onclick= "rulesDisplay()">Rules</button>
             </div>
             <section id="rules" style="display: none">
                 <div id="rules-box" class="rules-container">
