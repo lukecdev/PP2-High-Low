@@ -4,35 +4,27 @@
 
  */
 
-//All declared variables that are used in the JS file
+//variables
 
 let questionText = document.getElementById("question-text");
 let answerButtons = document.getElementsByClassName("btn-answer");
 let questionDisplay = document.getElementById("quiz-area");
-
 let buttonRules = document.getElementById("rules-button");
-
-let quizStartNA = document.getElementById("north-america");
-
-
 let homeDisplay = document.getElementById("start-page");
-const answerBox = document.getElementById("end-box");
-
 let score;
-let currentQuestion;
-let questionSet;
+let currentQuestion; // index for current question
+let questionSet; // index for selected question set
 
-
-
+// Starts Quiz on click of topic
 function startGame(questions) {
     score = 0;
     currentQuestion = 0;
     questionSet = questions;
-    
-    displayQuestion();
-    
+    displayQuestion();   
 }
 
+// Displays questions of selected topic 
+/** hides the start page and rules button */
 function displayQuestion() {
     if (currentQuestion + 1 > questionSet.length){
         gameOver();
@@ -42,19 +34,17 @@ function displayQuestion() {
             answerButtons[i].innerHTML = questionSet[currentQuestion].choices[i];
             answerButtons[i].dataset.answer = questionSet[currentQuestion].choices[i];
         }
-    }
-    
+    }    
 }
 
-
-
+  /**checks answer and increments score if correct
+   * increments incorrect score if wrong
+   */
 function checkAnswer(clickedAnswer) {
     if (clickedAnswer.dataset.answer == questionSet[currentQuestion].correct) {
         score++;
-        
         incrementScore();
-    } else {
-        
+    } else { 
         incrementWrongAnswer();
     }
     currentQuestion++;
@@ -64,11 +54,9 @@ function checkAnswer(clickedAnswer) {
 function incrementScore() {
     let oldScore = parseInt(document.getElementById("score").innerText);
     document.getElementById("score").innerText = ++oldScore;
-
 }
 
 function incrementWrongAnswer() {
-
     let oldScore = parseInt(document.getElementById("incorrect").innerText);
     document.getElementById("incorrect").innerText = ++oldScore;
 }
@@ -79,8 +67,7 @@ function rulesDisplay() {
     var rhide = document.getElementById("rules");
 
     if(rhide.style.display === "none") {
-        rhide.style.display = "block";
-        
+        rhide.style.display = "block";       
         homeDisplay.style.display = "none";
         questionDisplay.style.display = "none";
         buttonRules.innerHTML = "Home";
@@ -88,44 +75,26 @@ function rulesDisplay() {
     else {
         rhide.style.display = "none";
         homeDisplay.style.display = "block";
-        
         buttonRules.innerHTML = "Rules";
     }
 }
 
-function rulesHide() {
-    var rulebtn = document.getElementByClassName("btn-rules");
-
-    if(rulebtn.style.display = "block") {
-        rulebtn.style.display = "none";
-    }
-}
-
+/*Hides start section */
 function homeHide() {
-    
 
     if(homeDisplay.style.display === "block") {
         homeDisplay.style.display = "none";
         questionDisplay.style.display = "block";
-        buttonRules.style.display ="none";
-        
-    }
-   
+        buttonRules.style.display ="none";    
+    }  
 }
 
-function darkMode() {
-    var element = document.getElementById("start","quiz-area");
-    element.classList.toggle("dark-mode");
-}
-
-
-
+/* final page and final score */
 function gameOver() {
     var finalshow = document.getElementById("final-page");
     
     if(finalshow.style.display === "none") {
         finalshow.style.display = "block";
-        
         homeDisplay.style.display = "none";
         questionDisplay.style.display = "none";
         document.getElementById("final-score").innerHTML ="Game Over! You scored " + score + " points!";
@@ -138,26 +107,3 @@ function gameOver() {
 function reload() {
     location.reload();
 }
-
-
-
-   
-
-
-
-/*
-function hideRules(){
-    start.style.display = "none"
-    quiz-HTMLTextAreaElement.style.display = "block"
-}
-
-function gameOver() {
-    alert("Game Over! You scored " + score + " points!");
-    location.reload();
-}
-
-let rulesButton = document.getElementsByClassName("btn-rules");
-*/
-
-
-
