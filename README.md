@@ -24,6 +24,18 @@
 
 ## User Experience (UX)
 
+The quiz was designed to be simple with intuitive functionality in mind. For all the features to be self-explanetory and to progress though the quiz quickly.
+
+### Wireframes
+
+The Wireframes where designed on Figma.
+
+- Start Section
+![Wireframe Start](assests/images/wireframe-start.png)
+
+- Question Section
+![Wireframe Question](assests/images/wireframe-questions.png)
+
 - ### User Stories 
 
     1. As a user, I want to test my knowledge on mountains.
@@ -36,7 +48,9 @@
 ![Colour Pallet](./assests/images/colour-palette.png)
 
     - black was used for the text
-    - 
+    - background color: Gradient from rgba(76, 243, 95, 1), rgba(89, 143, 246, 1)
+    - button shadow: #0043DE
+    - balck was used for quiz and start area border
 
 ## Features
 The site contains all necessary features of a simple, functioning quiz.
@@ -81,12 +95,11 @@ The site contains all necessary features of a simple, functioning quiz.
 
     ![Final Score](assests/images/score-sc.png)    
 
-# Features left to Implement
->  These are features that I would have liked to implement for the site if I had more available time and more knowledge on the subject.
+## Features left to Implement
+These are features that I would have liked to implement for the site if I had more available time and more knowledge on the subject.
+    - High score tracker, to add a highscores modal for each seperate game. To be able to input username to push to a leaderboard.
+    - Countdown Clock, a timer that counts down when a question is presented to the user to display how long the user has left to answer the question. 
 
-# Future Features
->
->
 
 # Technologies Used
 
@@ -98,41 +111,63 @@ The site contains all necessary features of a simple, functioning quiz.
 
 
 # Testing
->The W3C Markup Validator, W3C CSS Validator Services and jshint.com were used to validate every page of the project to ensure there were no syntax errors in the project.
+- The W3C Markup Validator, W3C CSS Validator Services and jshint.com were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-### Testing Phase
+## Testing Phase
 
-**Testing for links**
+### Validator Testing
+
+- HTML ([W3C validator](https://validator.w3.org/))
+
+    ![HTML validator result](assests/images/html-test-sc.png)
+    - Error found at closing end tag on line 81. Detects unclosed elements at this line.
+    - Error found on line 62 unclosed element at section.
+    - Warning to add more headings to line 62 section. 
+
+- CSS [Jigsaw](https://jigsaw.w3.org/css-validator/)
+
+     ![CSS validator result](assests/images/css-test-sc.png)
+
+     No errors found.
+
+- JavaScript [JSHint](https://jshint.com/)
+    
+    - No significant issues.
+
+
+**Manual Testing**
 
 | Test              | Outcome |
 |-------------------|---------------|
+|When a topic button is pressed the relevent questions appear| Pass  |
 |When the rules button is clicked it deplays the rules| Pass  |
-|Footer social links all lead to their respective social media sites |Pass|
-|Content reformats on smaller screens|pass|
-|All images load on pages|pass|
+|When a answer is selected it moves to the next question| Pass |
+|When a answer is selected the score counter increases| Pass  |
+|Content reformats on smaller screens| Pass |
+|When the final answer is selcted the final score appears| Pass |
+|The final score is displayed with the correct score| Pass  |
 
-**Testing for reponsiveness**
-| Test              | Outcome |
-|-------------------|---------------|
-|Home page, about, portfolio, contact us displays correctly on screens larger than 950px|Pass |
-|Home page, about, portfolio, contact us displays correctly on screens smaller than 950px|Pass |
+**Browser Testing**
 
-## Browser Testing 
 Browser Tested | Working Status
 ---------------|---------------
 Chrome | Works as expected
 Firefox | Works as expected
 Microsoft Edge | Works as expected
 
-## Device Testing
+**Device Testing**
+
 Device Tested | Working Status
 --------------|---------------
 lenevo Yoga Slim | Works as expected
 OnePlus Nord 2T | Works as expected
 
-## Google Lighhouse Testing
+### Google Lighhouse Testing
+
 The site was testing using Lighthouse
 ![Lighthouse results](./assests/images/lighthouse-test1.png)
+
+# Bugs
 
 
 # Deployment
@@ -174,6 +209,9 @@ The site was testing using Lighthouse
 
 ## Content
 Text content on all pages was copied and/or amended from the following sites:
+    - [Europe Mountains](https://www.muchbetteradventures.com/magazine/the-10-highest-mountains-in-europe/) Site used to get information for europe questions.
+    - [Europe Wiki](https://en.wikipedia.org/wiki/List_of_highest_points_of_European_countries) Wiki used to get information for europe questions.
+    - [North America](https://www.geographyrealm.com/the-highest-11-mountains-in-the-united-states/) Website used to get information for North America questions.
 
 ## Acknowledgements
 
