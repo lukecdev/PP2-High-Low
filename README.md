@@ -49,23 +49,38 @@ The site contains all necessary features of a simple, functioning memory card ga
 
     ![header](assests/images/header.png)
 
+- **Start Section**
+    - Displays the topics for the user to choose.
+    - When one of the topic buttons in pressed, it displays the desired questions.
+
+    ![Start](assests/images/pick-topic.png)     
+
 - **Game Rules**
-    - located at the bottom of the page.
+    - Located at the bottom of the page.
     - The rules section is displayed and hidden when Rules button is pressed.
     - When the rules button is pressed, the start section is hidden and then shows after the rules section is closed.
     - When the rules section is displayed, the rules button inner text is changed to "Home" to show the user where to click next. 
 
-    ![game rules button](assests/images/rules-button.png) ![rules section](assests/images/rules.png)
+    ![game rules button](assests/images/rules-button.png) ![rules section](assests/images/rules-section-sc.png)
 
-- **Quix Area**
-    - 
+- **Quiz Area**
+    - Shows the displayed question.
+    - Shows the answer buttons.
 
     ![quiz area](assests/images/quiz-area.png)
 
 - **Score Counter**
     - Allows users to see their correct and incorrect score as they progress.
+
     ![score counter](assests/images/correct-score.png)
-        
+
+- **Final Score**
+    - Fianl section that is displayed after the final answer is selected.
+    - Displays the users final score from the correct answers.
+    - Has a return to the start button.
+
+    ![Final Score](assests/images/score-sc.png)    
+
 # Features left to Implement
 >  These are features that I would have liked to implement for the site if I had more available time and more knowledge on the subject.
 
