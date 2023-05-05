@@ -71,6 +71,10 @@ header {
 }
 
 /* rules button and section */
+#rules {
+    max-width: 800px;
+}
+
 #rules-box {
     margin: 5vh;
     padding: 5px 5px 10px 5px;

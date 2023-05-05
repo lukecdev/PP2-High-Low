@@ -63,7 +63,7 @@ function rulesDisplay() {
     var rhide = document.getElementById("rules");
 
     if(rhide.style.display === "none") {
-        rhide.style.display = "block";       
+        rhide.style.display = "inline-block";       
         homeDisplay.style.display = "none";
         questionDisplay.style.display = "none";
         buttonRules.innerHTML = "Home";
