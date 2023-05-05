@@ -12,7 +12,7 @@
 
 ## Table of contents
 
-1. [ UX ](#ux)
+1. [ User Experience ](#UserExperience)
 2. [ Features ](#features)
 3. [ Features left to Implement ](#left)
 4. [ Technology used ](#tech)
@@ -168,7 +168,7 @@ The site was testing using Lighthouse
 ![Lighthouse results](./assests/images/lighthouse-test1.png)
 
 # Bugs
-
+    - When the rules section displays the user can return to the home section with the rules section not hidden. This is a link issue.
 
 # Deployment
 
