@@ -39,7 +39,7 @@
     - 
 
 ## Features
-The site contains all necessary features of a simple, functioning memory card game.
+The site contains all necessary features of a simple, functioning quiz.
 
 ### Existing Features
 
